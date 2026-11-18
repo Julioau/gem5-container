@@ -1,0 +1,10 @@
+.git
+.gitignore
+.dockerignore
+.containerignore
+README.md
+m5out
+**/m5out
+__pycache__
+*.pyc
+*.pyo

@@ -1,0 +1,17 @@
+# gem5 simulation outputs
+m5out/
+**/m5out/
+
+# Python bytecode generated inside mounted orgb_configs
+__pycache__/
+*.pyc
+*.pyo
+
+# Compiled C/C++ benchmark binaries inside orgb_progs
+orgb_progs/*
+!orgb_progs/*.c
+!orgb_progs/*.cpp
+!orgb_progs/*.h
+!orgb_progs/*.hpp
+!orgb_progs/Makefile
+!orgb_progs/README*
